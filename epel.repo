@@ -2,8 +2,7 @@
 name=Extra Packages for Enterprise Linux 7 - $basearch
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
-#baseurl=http://download.example/pub/epel/7/$basearch
-metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=$basearch&infra=$infra&content=$contentdir
+baseurl=https://ftp-stud.hs-esslingen.de/pub/Mirrors/archive.fedoraproject.org/epel/7/$basearch
 failovermethod=priority
 enabled=1
 gpgcheck=1
@@ -13,8 +12,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
 name=Extra Packages for Enterprise Linux 7 - $basearch - Debug
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
-#baseurl=http://download.example/pub/epel/7/$basearch/debug
-metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-debug-7&arch=$basearch&infra=$infra&content=$contentdir
+baseurl=https://ftp-stud.hs-esslingen.de/pub/Mirrors/archive.fedoraproject.org/epel/7/$basearch/debug
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
@@ -24,8 +22,7 @@ gpgcheck=1
 name=Extra Packages for Enterprise Linux 7 - $basearch - Source
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place it's address here.
-#baseurl=http://download.example/pub/epel/7/source/tree/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-source-7&arch=$basearch&infra=$infra&content=$contentdir
+baseurl=https://ftp-stud.hs-esslingen.de/pub/Mirrors/archive.fedoraproject.org/epel/7/source/tree/
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
